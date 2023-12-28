@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a class="logo" href="index.html">
+            <img class="logo__svg" src="images/logo.svg" alt="">
+          </a>
+          <nav class="menu">
+            <button class="menu__btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link menu__list-link--active" href="#">Наш каталог</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="#">Скоро</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+
+      <section class="choose">
+        <div class="container">
+          <h2 class="section-title">
+            Выбери свой инструмент
+          </h2>
+          <div class="tabs">
+            <div class="tabs__btn">
+              <button class="tabs__btn-item tabs__btn-item--active" data-button="content-1">Музыкальные инструменты</button>
+              <button class="tabs__btn-item" data-button="content-2">Акссесуары для инструментов</button>
+              <button class="tabs__btn-item" data-button="content-3">Подарочные сертификаты</button>
+              <button class="tabs__btn-item" data-button="content-4">Товары со скидкой</button>
+            </div>
+            <div class="tabs__content">
+              <div class="tabs__content-item tabs__content-item--active" id="content-1">
+                <div class="card">
+                  <img class="card__img" src="images/card-1.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Гитара Yamaha F310 желтый, коричневый</h4>
+                    <p class="card__text">цена: 62 975 ₸</p>
+                    <p class="card__price">5 248 ₸ x 12 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/yamaha-f310-zheltyi-korichnevyi-14100411/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-2.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Скрипка Foix FVP-01A-4/4 коричневый</h4>
+                    <p class="card__text">цена: 48 000 ₸</p>
+                    <p class="card__price">4 000 ₸ x 12 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/foix-fvp-01a-4-4-korichnevyi-107946706/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-3.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Цифровое пианино Yamaha YDP-145B</h4>
+                    <p class="card__text">цена: 545 090 ₸</p>
+                    <p class="card__price">45 425 ₸ x 12 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/tsifrovoe-pianino-yamaha-ydp-145b-109518135/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-4.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Барабан GEWA PS800055 черный</h4>
+                    <p class="card__text">цена: 508 500 ₸</p>
+                    <p class="card__price">42 375 ₸ x 12 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/gewa-ps800055-chernyi-112896405/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-5.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Домбыра</h4>
+                    <p class="card__text">цена: 13 994 ₸</p>
+                    <p class="card__price">4 665 ₸ x 3 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/ruchnaja-rabota-kid15-94-sm-104373451/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-6.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Қобыз</h4>
+                    <p class="card__text">цена: 39 999₸</p>
+                    <p class="card__price">3 999 ₸ x 12 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/music-room-kyl-kobyz-music-room-korichnevyi-113966679/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-7.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Виниловый проигрыватель</h4>
+                    <p class="card__text">цена: 54 000 ₸</p>
+                    <p class="card__price">4 500 ₸ x 12 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/vernyi-umit-02-108605399/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-4.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Ударная установка</h4>
+                    <p class="card__text">цена: 427 690 ₸</p>
+                    <p class="card__price">35 641 ₸ x 12 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/pearl-rs525sc-c31-roadshow-black-100008020/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-8.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Саксофон Allora Tenor</h4>
+                    <p class="card__text">цена: 299 900 ₸</p>
+                    <p class="card__price">24 992 ₸ x 12 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/allora-tenor-aats-501-zolotistyi-107070736/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-9.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Электрогитара</h4>
+                    <p class="card__text">цена: 104 900 ₸</p>
+                    <p class="card__price">8 742 ₸ x 12 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/stagg-homage-heg310bk-pack-1-110212106/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-10.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Синтезатор Yamaha YPT-270</h4>
+                    <p class="card__text">цена: 66 690 ₸</p>
+                    <p class="card__price">5 558 ₸ x 12 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/sintezator-yamaha-ypt-270-chernyi-108105299/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-11.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Электрогитара Cort X100</h4>
+                    <p class="card__text">цена: 85 800 ₸</p>
+                    <p class="card__price">7 150 ₸ x 12 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/cort-x100-opbk-open-pore-black-14200087/?c=750000000">Посмотреть детали</a>
+                </div>
+              </div>
+              <div class="tabs__content-item" id="content-2">
+                <div class="card">
+                  <img class="card__img" src="images/card-13.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Микрофон Shuperd M2</h4>
+                    <p class="card__text">цена: 21 999 ₸</p>
+                    <p class="card__price">3 667 ₸ x 6 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/shuperd-m2-chernyi-102336040/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-14.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Чехол для домбры</h4>
+                    <p class="card__text">цена: 3 199 ₸</p>
+                    <p class="card__price">1 067 ₸ x 3 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/dlja-dombry-dauscher-pg-a-b-chernyi-102662282/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-15.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Стойка Foix J-31</h4>
+                    <p class="card__text">цена: 4 990 ₸</p>
+                    <p class="card__price">1 664 ₸ x 3 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/foix-j-31-chernyi-102967590/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-16.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Медиаторы для гитары</h4>
+                    <p class="card__text">цена: 1 589 ₸</p>
+                    <p class="card__price">530 ₸ x 3 мес</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/alice-amas00018-10-sht-105698829/?c=750000000">Посмотреть детали</a>
+                </div>
+              </div>
+              <div class="tabs__content-item" id="content-3">
+                <div class="card">
+                  <img class="card__img" src="images/card-17.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">5 000тг</h4>
+                    <p class="card__text">порадуй своих близких</p>
+                    <p class="card__price">сертификат</p>
+                  </div>
+                  <a class="card__link" href="#">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-18.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">10 000тг</h4>
+                    <p class="card__text">порадуй своих близких</p>
+                    <p class="card__price">сертификат</p>
+                  </div>
+                  <a class="card__link" href="#">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-17.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">20 000тг</h4>
+                    <p class="card__text">порадуй своих близких</p>
+                    <p class="card__price">сертификат</p>
+                  </div>
+                  <a class="card__link" href="#">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-18.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">30 000тг</h4>
+                    <p class="card__text">порадуй своих близких</p>
+                    <p class="card__price">сертификат</p>
+                  </div>
+                  <a class="card__link" href="#">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-17.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">40 000тг</h4>
+                    <p class="card__text">порадуй своих близких</p>
+                    <p class="card__price">сертификат</p>
+                  </div>
+                  <a class="card__link" href="#">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-18.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">50 000тг</h4>
+                    <p class="card__text">порадуй своих близких</p>
+                    <p class="card__price">сертификат</p>
+                  </div>
+                  <a class="card__link" href="#">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-17.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">80 000тг</h4>
+                    <p class="card__text">порадуй своих близких</p>
+                    <p class="card__price">сертификат</p>
+                  </div>
+                  <a class="card__link" href="#">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-18.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">100 000тг</h4>
+                    <p class="card__text">порадуй своих близких</p>
+                    <p class="card__price">сертификат</p>
+                  </div>
+                  <a class="card__link" href="#">Посмотреть детали</a>
+                </div>
+              </div>
+              <div class="tabs__content-item" id="content-4">
+                <div class="card">
+                  <img class="card__img" src="images/card-19.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Музыкальный центр DEXP LP-V100</h4>
+                    <p class="card__text">старая цена: 8̶9̶ ̶9̶5̶0̶ ̶₸̶</p>
+                    <p class="card__price">со скидкой: 58 749 ₸</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/dexp-lp-v100-104692322/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-20.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Наушники CAT EAR</h4>
+                    <p class="card__text">старая цена: 2̶2̶ ̶5̶0̶0̶ ̶₸̶</p>
+                    <p class="card__price">со скидкой: 18 500 ₸</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/cat-ear-headphones-ct-86-chernyi-102749906/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-21.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Умная колонка Яндекс Станция Лайт</h4>
+                    <p class="card__text">старая цена: 3̶0̶ ̶5̶0̶0̶ ̶₸̶</p>
+                    <p class="card__price">со скидкой: 27 941 ₸</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/jandeks-stantsija-lait-fioletovyi-101870266/?c=750000000">Посмотреть детали</a>
+                </div>
+                <div class="card">
+                  <img class="card__img" src="images/card-22.jpg" alt="">
+                  <div class="card__content">
+                    <h4 class="card__title">Компьютерные колонки Havit SK212</h4>
+                    <p class="card__text">старая цена: ̶1̶7̶ ̶5̶0̶0̶ ̶₸̶</p>
+                    <p class="card__price">со скидкой: 10 990 ₸</p>
+                  </div>
+                  <a href="https://kaspi.kz/shop/p/havit-sk212-chernyi-109772401/?c=750000000">Посмотреть детали</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="showmore-link" href="#">Показать больше</a>
+        </div>
+      </section>
+      <section class="blog">
+        <div class="container">
+          <div class="blog__items">
+            <div class="blod__item">
+              <img class="blod__item-img" src="images/blog-1.jpg" alt="">
+              <h4 class="blod__item-title">Душа – под музыку – странствует. Странствует – изменяется. Вся моя жизнь – под музыку</h4>
+            </div>
+            <div class="blod__item">
+              <img class="blod__item-img" src="images/blog-2.jpg" alt="">
+              <h4 class="blod__item-title">Когда заканчиваются слова, начинается музыка</h4>
+            </div>
+          </div>
+          <a class="showmore-link" href="#">Показать больше</a>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <nav class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Товары</p>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Скоро</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Новые</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Продать свой инструмент</a>
+            </li>
+          </ul>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Ресурсы</p>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Блог</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">FAQ</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">Сотрудничество с Paradise</p>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Дилеры</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Партнеры</a>
+            </li>
+          </ul>
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item">
+              <p class="footer__menu-title">О нас</p>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Мы в СМИ</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Команда</a>
+            </li>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Вакансии</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="app">
+          <li class="app__item">
+            <a class="app__item-link" href="#">
+              <img class="app__item-img" src="images/appstore.svg" alt="">
+            </a>
+          </li>
+          <li class="app__item">
+            <a class="app__item-link" href="#">
+              <img class="app__item-img" src="images/googleplay.svg" alt="">
+            </a>
+          </li>
+        </ul>
+        <div class="footer__copy">
+          <p class="footer__copy-text">
+            По вопросам, связанным с музыкальным магазином, звоните по телефону 1-888-XXX-XXXX. 
+            Сертифицированные продавцы по договору с музыкальным магазином обязаны выполнять определенные требования 
+            к обслуживанию клиентов и пройти программу сертификации продавцов музыкальных инструментов.
+          </p>
+          <p class="footer__copy-text">
+            Paradise не занимается посредничеством, продажей или арендой музыкальных инструментов. 
+            Если не указано иное, все инструменты, представленные на данном веб-сайте Paradise, предлагаются к продаже утвержденными музыкальными дилерами. 
+            Все товары подлежат предварительной продаже. При посещении этого сайта, 
+            вы соглашаетесь с Условиями предоставления услуг Paradise и Политикой конфиденциальности.
+          </p>
+        </div>
+        <nav class="copy__nav">
+          <ul class="copy__nav-list">
+            <li class="copy__nav-item">
+              <a class="copy__nav-link" href="#">Terms of Service</a>
+            </li>
+            <li class="copy__nav-item">
+              <a class="copy__nav-link" href="#">Privacy Policy</a>
+            </li>
+            <li class="copy__nav-item">
+              <a class="copy__nav-link" href="#">Do Not Sell My Personal Information</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
